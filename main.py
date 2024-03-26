@@ -138,7 +138,7 @@ else:
 
               # Your existing data preprocessing and prediction logic here (assuming 'data' is not used)
               data = df[['Gender', 'Sponsor code', 'MemberStatus ', 'EE', 'ER', 'EEAVC', 'ERAVC','Balance', 'Has Next of Kin', 'Age', 'Yrs_of_Membership', 'Yrs_to_Ret',
-             'Months_Since_last_Contribution']].
+             'Months_Since_last_Contribution']]
 
              # Loop through each row and make predictions
               predictions = []
